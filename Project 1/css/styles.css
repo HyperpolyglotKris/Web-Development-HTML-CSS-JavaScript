@@ -1,0 +1,214 @@
+/* Kristiyan Stoilov */
+
+/* ----- CSS for all of my gec_*.html ----- */
+
+/* Large Elements Styles */
+body {
+    background-color: lightsalmon;
+    display: flex;
+    color: dimgray;
+    flex-direction: column;
+    margin: 0px 100px;
+}
+
+header {
+    background-color: antiquewhite;
+    padding: 10px;
+    flex: 1;
+}
+
+section {
+    background-color: antiquewhite;
+}
+
+footer {
+    background-color: coral;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+/* Small Elements Styles */
+a:link,
+a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+p {
+    background-color: antiquewhite;
+    margin: 16px 0px;
+}
+
+q {
+    display: block;
+    quotes: '"';
+    color: lightsalmon;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+q:before,
+q:after {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+h1,
+h2 {
+    color: whitesmoke;
+    background-color: chocolate;
+}
+
+h1 {
+    font-size: 1.8rem;
+    padding-left: 12px;
+    padding: 8px;
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+h3 {
+    color: gray;
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    color: coral;
+    font-size: 2em;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+h4 ul,
+h4 li {
+    list-style-image: url("../img/check.png");
+    color: dimgray;
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+blockquote {
+    float: right;
+    background-color: coral;
+    color: white;
+    quotes: '"';
+    padding: 20px;
+}
+
+blockquote:before {
+    content: open-quote;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+blockquote:after {
+    content: close-quote;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Styles for IDs */
+
+#page {
+    display: flex;
+    flex-direction: row;
+}
+
+#links {
+    flex: 1;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    flex: 6;
+}
+
+#main>* {
+    margin-right: 40px;
+}
+
+#comments {
+    flex: 1;
+    padding: 20px;
+}
+
+#about {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    flex: 1;
+}
+
+#about div {
+    flex: 1;
+}
+
+#about img {
+    flex: 1;
+    align-items: start;
+    object-fit: contain;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+#withBlockquote {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+#coach img {
+    float: left;
+    padding: 0px 20px;
+    padding-bottom: 12px;
+}
+
+#differentH1 {
+    background-color: coral;
+    color: white;
+    font-size: 1.8rem;
+    padding-left: 12px;
+    padding: 8px;
+}
+
+#differentH2 {
+    background-color: lightsalmon;
+    color: white;
+}
+
+#center {
+    text-align: center;
+}
+
+/* Lists Styles */
+
+header li {
+    list-style-type: none;
+    padding: 4px 0px;
+}
+
+ol {
+    list-style: upper-roman;
+    margin: 12px 0px;
+}
+
+ol ol {
+    list-style-type: upper-alpha;
+    margin: 4px 0px;
+}
+
+ol ol ol {
+    list-style-type: decimal;
+    margin: 4px 0px;
+}

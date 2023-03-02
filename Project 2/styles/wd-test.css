@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/* Name: Kristiyan Stoilov */
+/* Student ID: 260990847 */
+/* October 20th 2022 */
+
+body {
+    width: 90%;
+    min-width: 640px;
+    max-width: 1024px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+header,
+.aside,
+article,
+nav a,
+.intro,
+.aside,
+.under {
+    outline: 3px solid black;
+    margin: 10px;
+}
+
+header {
+    background-color: #dad7cd;
+    text-align: center;
+}
+
+a {
+    background-color: #344e41;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(6, 2fr);
+}
+
+.aside {
+    background-color: #a3b18a;
+}
+
+article {
+    background-color: #588157;
+    padding: 10px;
+}
+
+.under {
+    background-color: #344e41;
+    color: white;
+    padding: 10px;
+}
+
+.centerpiece {
+    display: grid;
+    grid-template-columns: 4fr 6fr 2fr;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.aside_container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
